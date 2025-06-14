@@ -1,0 +1,846 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* General propretse */
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.triangle {
+    border: 4px solid transparent;
+    border-top-color: #8d8d8d;
+    width: 4px;
+    position: absolute;
+}
+
+.blue-link:hover {
+    color: blue;
+}
+/* start of hero */
+#hero {
+    background-image: url(../imges/img1.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+#hero .overlay {
+    background-color: rgba(0, 0, 0, 0.525);
+    height: 600px;
+    padding: 50px 5%;
+    align-content: space-between;
+}
+
+header {
+    color: white;
+    border-bottom: 2px solid white;
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 100%;
+}
+header h1:first-of-type {
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #8d8d8d;
+    font-size: 15px;
+    margin: 0 12px;
+}
+
+header nav a:first-of-type {
+    color: white;
+}
+
+header nav i {
+    font-size: 20px;
+    margin-left: 8px;
+    color: #8d8d8d;
+}
+
+header nav a:nth-last-of-type(4) {
+    position: relative;
+}
+
+header nav a:nth-last-of-type(4) .triangle {
+    top: 7px;
+    left: 45px;
+}
+
+header nav a:hover ,header nav i:hover {
+    color: white;
+}
+
+#hero .overlay div {
+    color: white;
+    justify-content: space-between;
+}
+
+#hero .overlay div article {
+    width: 30%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#hero .overlay div article p:first-of-type {
+    color: rgba(215, 215, 215, 0.767);
+    border: 4px solid blue;
+    border-radius: 50%;
+    border-left-color: #8d8d8d;
+    width:22%;
+    height: 115%;
+    text-align: center;
+    padding: 8px 0 0;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#hero .overlay div article:first-of-type p:first-of-type {
+    border-color: #8d8d8d;
+}
+
+#hero .overlay div article:last-of-type p:first-of-type {
+    border-color: #8d8d8d;
+
+}
+
+#hero .overlay div article p:last-of-type {
+    font-size: 14px;
+    width: 70%;
+    color: rgba(211, 211, 211, 0.767);
+}
+/* end of hero */
+/* start of main */
+#main {
+    padding: 0px 5%;
+    margin-top: 110px;
+    justify-content: space-between;
+}
+
+.left-main {
+    width: 65%;
+}
+
+.up-left-main nav {
+    justify-content: space-between;
+    border-bottom: 3px solid #f1f1f1;
+}
+
+.up-left-main nav ul {
+    margin: 3px 0 10px;
+}
+
+.up-left-main nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 7px;
+    color: #8d8d8d;
+    cursor: pointer;
+}
+
+.up-left-main nav ul li:hover {
+    color: #000;
+}
+
+.up-left-main nav ul li:first-of-type {
+    color: black;
+    position: relative;
+}
+
+.up-left-main nav ul li:first-of-type .blue-line {
+    width: 20px;
+    height: 2px;
+    display: block;
+    background-color: blue;
+    position: absolute;
+    bottom: -12px;
+    right: 0px;
+}
+
+.up-left-main nav ul li:last-of-type {
+    position: relative;
+}
+
+.up-left-main nav ul li:last-of-type .triangle {
+    top: 6px;
+    left: 39px;
+}
+
+.topic {
+    justify-content: space-between;
+    padding: 30px 0 0;
+}
+
+.topic .left-topic {
+    width: 48%;
+}
+
+.topic .left-topic .box-shadow {
+    box-shadow: inset 0px 0px 7px 1px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.topic .left-topic .box-shadow button {
+    background: white;
+    color: blue;
+    border: 0;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 500;
+    position: absolute;
+    top: 3%;
+    right: 70%;
+}
+
+.topic .left-topic .box-shadow button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.topic .left-topic img {
+    width: 100%;
+}
+
+.topic .left-topic h3 {
+    margin: 20px 0 10px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.topic .left-topic p:first-of-type {
+    margin: 20px 0;
+    color: #8d8d8d;
+    padding: 0 15px;
+}
+
+.topic .left-topic p:last-of-type a{
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+
+.topic .left-topic p:last-of-type {
+    font-size: 12px;
+    color: #8d8d8d;
+    padding: 0 15px 20px;
+}
+
+.topic .left-topic p:last-of-type a:hover {
+    color: blue;
+}
+
+.topic .right-topic {
+    width: 48%;
+}
+
+.right-topic>div {
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 5px;
+}
+
+.right-topic>div:last-of-type {
+    margin-bottom: 0;
+}
+
+.right-topic div div {
+    width: 60%;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.right-topic div div h5 {
+    cursor: pointer;
+}
+
+.right-topic div div p {
+    color: #8d8d8d;
+    font-size: 12px;
+    margin: 10px 0 0 ;
+}
+
+.right-topic div div p a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.topic .right-topic div img {
+    width: 38%;
+    height: 100px;
+    align-self: center;
+}
+
+.down-left-main nav {
+    justify-content: space-between;
+    border-bottom: 3px solid #f1f1f1;
+    margin-top: 70px;
+}
+
+.down-left-main nav ul {
+    margin: 0 0 10px;
+}
+
+.down-left-main nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 7px;
+    color: #8d8d8d;
+    cursor: pointer;
+}
+
+.down-left-main nav ul li:hover {
+    color: black;
+}
+
+.down-left-main nav ul li:first-of-type {
+    color: black;
+    position: relative;
+}
+
+.down-left-main nav ul li:first-of-type .blue-line {
+    width: 20px;
+    height: 2px;
+    display: block;
+    background-color: blue;
+    position: absolute;
+    bottom: -12px;
+    right: 0px;
+}
+
+.down-left-main nav ul li:last-of-type {
+    position: relative;
+}
+
+.down-left-main nav ul li:last-of-type .triangle {
+    top: 6px;
+    left: 39px;
+}
+
+.center-topic {
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.center-topic div {
+    width: 48%;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.center-topic div button {
+    background: white;
+    color: blue;
+    border: 0;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 500;
+    position: absolute;
+    top: 3%;
+    right: 70%;
+}
+
+.center-topic div button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.center-topic img {
+    width: 100%;
+}
+
+.center-topic h3 {
+    margin: 20px 0 10px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.center-topic p:first-of-type {
+    margin: 20px 0;
+    color: #8d8d8d;
+    padding: 0 15px;
+}
+
+.center-topic p:last-of-type a{
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+
+.center-topic p:last-of-type {
+    font-size: 12px;
+    color: #8d8d8d;
+    padding: 0 15px 20px;
+}
+
+.center-topic p:last-of-type a:hover {
+    color: blue;
+}
+
+.end-topic {
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.end-topic>div {
+    justify-content: space-between;
+    width: 48%;
+    
+}
+
+.end-topic>div>div {
+    margin: 5px 0;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.end-topic>div>div>div {
+    width: 60%;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.end-topic>div>div>div>h5 {
+    cursor: pointer;
+}
+
+.end-topic div div p {
+    color: #8d8d8d;
+    font-size: 12px;
+    margin: 10px 0 0 ;
+}
+
+.end-topic div div p a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.end-topic div img {
+    width: 38%;
+    height: 100px;
+    align-self: center;
+}
+
+#main aside {
+    width: 30%;
+    border-left: 3px solid #f1f1f1;
+}
+
+aside h3 {
+    border-bottom: 3px solid #f1f1f1;
+    padding: 12px 0 12px 30px;
+}
+
+aside>p {
+    border-bottom: 3px solid #f1f1f1;
+    padding: 12px 0 12px 30px;
+    color: #8d8d8d;
+}
+
+aside>div:first-of-type {
+    border-bottom: 3px solid #f1f1f1;
+    padding: 30px 0px 30px 30px;
+}
+
+aside>div:first-of-type div {
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+    margin: 0 0 5px;
+}
+
+aside>div:first-of-type div img {
+    width: 30%;
+}
+
+aside>div:first-of-type div h5 {
+    width: 65%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+aside ul {
+    justify-content: space-between;
+    border-bottom: 3px solid #f1f1f1;
+    padding: 12px 0 12px 30px;
+}
+
+aside ul li {
+    list-style: none;
+}
+
+aside ul li i {
+    color: #8d8d8d;
+    border: 1px solid #8d8d8d9e;
+    border-radius: 50%;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+aside ul li:first-of-type i {
+    padding: 5px 8px;
+}
+
+aside ul li i:hover {
+    color: blue;
+}
+
+aside>div:last-of-type {
+    padding: 30px 0px 30px 30px;
+}
+
+aside>div:last-of-type img {
+    width: 100%;
+}
+
+aside>div:last-of-type h5 {
+    font-size: 15px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+/* end of main */
+/* start of news */
+#news {
+    padding: 0px 5%;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+#news>div:nth-of-type(1) {
+    background-image: url(../imges/img11.jpg);
+    background-size: 100% 100%;
+}
+
+#news>div:nth-of-type(2) {
+    background-image: url(../imges/img12.jpg);
+    background-size: 100% 100%;
+}
+
+#news>div:nth-of-type(3) {
+    background-image: url(../imges/img13.jpg);
+    background-size: 100% 100%;
+}
+
+#news>div {
+    width: 32%;
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.32);
+}
+
+#news>div .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 20px;
+}
+
+#news>div button {
+    background: white;
+    color: blue;
+    border: 0;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+#news>div button:hover {
+    background-color: blue;
+    color: white;
+}
+
+#news>div h2 {
+    font-size: 18px;
+    color: white;
+    margin: 5px 0 15px;
+}
+
+#news>div p {
+    font-size: 11px;
+    color: #8d8d8d;
+}
+
+#news>div p a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+#news>div p a:hover {
+    color: blue;
+}
+/* end of news */
+/* start of latest */
+#latest {
+    padding: 50px 5%;
+    justify-content: space-between;
+}
+
+#latest .left-side {
+    width: 65%;
+}
+
+.left-side h3{
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.left-side>div {
+    justify-content: space-between;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.32);
+    margin-bottom: 5px;
+}
+
+.left-side>div>img {
+    width: 30%;
+}
+
+.left-side>div>div {
+    width: 65%;
+    padding: 10px;
+}
+
+.left-side>div>div>h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.left-side>div>div>p:first-of-type {
+    font-size: 14px;
+    color: #8d8d8d;
+    margin-bottom: 20px;
+}
+
+.left-side>div>div>p:last-of-type {
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.left-side>div>div>p:last-of-type a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.left-side>div>div>p:last-of-type a:hover {
+    color: blue;
+}
+
+#latest .right-side {
+    width: 30%;
+}
+
+.right-side>h3 {
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.right-side>div {
+    position: relative;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.32);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.right-side>div>button {
+    background: white;
+    color: blue;
+    border: 0;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 500;
+    position: absolute;
+    top: 3%;
+    right: 70%;
+}
+
+.right-side>div>button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.right-side>div>img {
+    width: 100%;
+}
+
+.right-side>div>h3 {
+    font-size: 18px;
+    width: 85%;
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+.right-side>div>p:first-of-type {
+    font-size: 14px;
+    width: 85%;
+    margin: 0 auto 15px;
+    color: #8d8d8d;
+}
+
+.right-side>div>p:last-of-type {
+    font-size: 12px;
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    color: #8d8d8d;
+    
+}
+
+.right-side>div>p:last-of-type a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.right-side>div>p:last-of-type a:hover {
+    color: blue;
+}
+/* end of latest */
+/* start of load */
+#load {
+    padding: 0 5%;
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+#load button {
+    margin: 0 auto;
+    padding: 11px 28px;
+    border: 2px solid #f1f1f1;
+    background-color: white;
+    color: #8d8d8d;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#load button:hover {
+    background-color: blue;
+    color: white;
+}
+/* end of load */
+/* start of footer */
+footer {
+    padding: 60px 5%;
+    background-color: #000;
+    color: white;
+    justify-content: space-between;
+}
+
+footer div{
+    width: 30%;
+}
+
+footer div:nth-of-type(1) h1 {
+    
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+footer div:nth-of-type(1) p {
+    color: #8d8d8d;
+    font-size: 14px;
+}
+
+footer div:nth-of-type(2) ul {
+    height: 50px;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin-top: 10px;
+}
+
+footer div:nth-of-type(2) ul li {
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+footer div:nth-of-type(2) ul li a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+footer div:nth-of-type(2) ul li a:hover {
+    color: blue;
+}
+
+footer div:nth-of-type(3) h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer div:nth-of-type(3) form input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #8d8d8d;
+    width: 250px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 1300px){
+    
+    #hero .overlay div article p:first-of-type {
+        width:22%;
+        height: 100%;
+        padding: 12px 0 0;
+        font-size: 40px;
+    }
+
+    #hero .overlay div article p:last-of-type {
+        font-size: 18px;
+        width: 70%;
+        padding: 15px 0 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    #hero .overlay div article p:first-of-type {
+        width:22%;
+        height: 60%;
+        padding: 8px 0 0;
+        font-size: 25px;
+        margin: 20px 0 0;
+    }
+
+    #hero .overlay div article p:last-of-type {
+        font-size: 14px;
+        width: 70%;
+        padding: 15px 0 0;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    #hero .overlay {
+        padding: 50px 13%;
+    }
+
+    #main {
+        padding: 0px 13%;
+    }
+
+    #news {
+        padding: 0px 13%;
+    }
+
+    #latest {
+        padding: 50px 13%;
+    }
+
+    #load {
+        padding: 0 13%;
+    }
+
+    footer {
+        padding: 60px 13%;
+    }
+}
